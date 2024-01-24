@@ -21,7 +21,9 @@ export default function RootLayout({
         <header className={`flex flex-row h-[65px] w-full flex-grow-0 border-b-[1px] border-[#EFEFEF] items-center
                           text-2xl ${mplus2.className}
                           box-content`}>
-          <p className="p-1 w-10 h-10 text-3xl bg-main text-white flex items-center justify-center">あ</p>
+          <p className="w-10 h-10 text-3xl bg-main border-main border-2 ">
+            <img className="w-full h-full" src="/anon.png"/>
+          </p>
           <p className="ml-1 text-main -tracking-[0.15rem] text-clip">東京あのん流通センター</p>
         </header>
         {children}
