@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "東京あのん流通センター (TOKYO ANON DISTRIBUTION CENTRE)",
     description: "東京あのん流通センター",
-    images: "anon.png"
+    images: "https://gomorroth.github.io/tokyo-anon-distribution-centre/anon.png"
   }
 };
 
