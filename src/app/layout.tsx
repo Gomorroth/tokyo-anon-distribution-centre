@@ -8,6 +8,11 @@ const mplus2 = M_PLUS_2({subsets: ["latin"]});
 export const metadata: Metadata = {
   title: "東京あのん流通センター (TOKYO ANON DISTRIBUTION CENTRE)",
   description: "東京あのん流通センター",
+  icons: "anon.png",
+  openGraph: {
+    title: "東京あのん流通センター (TOKYO ANON DISTRIBUTION CENTRE)",
+    description: "東京あのん流通センター",
+  }
 };
 
 export default function RootLayout({
@@ -22,7 +27,7 @@ export default function RootLayout({
                           text-2xl ${mplus2.className}
                           box-content`}>
           <p className="w-10 h-10 text-3xl bg-main border-main border-2 ">
-            <img className="w-full h-full" src="/anon.png"/>
+            <img className="w-full h-full" src="anon.png"/>
           </p>
           <p className="ml-1 text-main -tracking-[0.15rem] text-clip">東京あのん流通センター</p>
         </header>
